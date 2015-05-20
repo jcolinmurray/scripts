@@ -1,5 +1,5 @@
-git config user.email "colin.murray@sozoglobal"
-git config user.name "sozouser"
+git config --global user.email "colin.murray@sozoglobal"
+git config --global user.name "sozouser"
 # Clone the whole azure repository
 cd
 git clone $GITREPO azure
@@ -10,4 +10,4 @@ cp -R -f ~/clone/dist/* .
 git add -A
 git commit -m "Code shipped"
 # push to azure
-git push azure master
+git push origin
