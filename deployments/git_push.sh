@@ -1,5 +1,3 @@
-set -e
-
 git config –-global user.email “$GITMAIL”
 git config –-global user.name “$GITUSER”
 # Clone the whole azure repository
